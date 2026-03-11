@@ -4,4 +4,6 @@ void board_init(void)
 {
     SystemInit();
     Sys_tik_init();
+    motor_init();
+    
 }
